@@ -1,2 +1,3 @@
 # Oracle-One
 ALL ORACLE/ALURA CHALLENGES
+It's in progress... 
