@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FUNCIONES CON PARAMETROS</title>
+</head>
+<body>
+	<h1>FUNCIONES CON PARAMETROS </h1>
+</body>
+</html>
+<script type="text/javascript">
+	function saltarlinea(){
+		document.write("</br>")
+	}
+	function palabra(valor){
+		document.write(valor)
+	}
+	function operacion(n1,n2){
+		var suma = n1 + n2;
+		var resta = n1 - n2;
+		var multiplicacion = n1 * n2;
+		var division = n1/n2;
+		document.write("SUMA: "+ suma)
+		saltarlinea()
+		document.write("RESTA: "+ resta)
+		saltarlinea()
+		document.write("MULTIPLICACION: "+ multiplicacion)
+		saltarlinea()
+		document.write("DIVISION:" + division)
+	}
+	palabra("Este es el valor que le indico a la función palabra")
+	saltarlinea()
+	operacion(5,5)
+	saltarlinea()
+	operacion(3,2)
+</script>
